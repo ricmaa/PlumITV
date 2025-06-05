@@ -22,6 +22,10 @@ body {
 }
 
 
+
+
+
+
 #navbar_u a {
     color: white;
     margin-right: 25px;
@@ -124,6 +128,93 @@ font-family: "Raleway", sans-serif;
 font-size: 20px;
 padding-top: 0;
 }
+.hdr2{
+    color: #3e256f;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+}
+
+
+.hdr3{
+color: white; 
+font-family: "Raleway", sans-serif;
+font-weight: 800; 
+}
+
+
+.hdr4{
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 800; 
+    font-size: 48px;
+    line-height: 50px;
+    color: #FFFFFF;
+    }
+
+
+.hdr5{
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 800; 
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+        }
+        
+    
+
+.undertext{
+color: rgb(189, 189, 189);
+font-family: "Raleway", sans-serif;
+font-size: 20px;
+padding-top: 0;
+}
+
+
+/* *margine sa strana* */
+.pageBars{
+
+width: 100%;
+margin-bottom: 5rem;
+padding-left: 8%;
+padding-right: 8%;
+
+}
+
+/* *prva sekcija* */
+
+.descriptiveTxt{
+font-size: 18px;
+line-height: 30px;
+font-weight: 400 ;
+font-family: "Raleway" , sans-serif;
+}
+
+
+.descriptiveTxt a{
+text-decoration: none;
+
+}
+
+.descriptiveTxt b{
+    color: #3e256f;
+    font-weight: bold;
+
+}
+
+
+.smallText{
+font-size: 15px;
+color: #6c6c6c;
+font-weight: 300;
+}
+
+.pt-11{
+
+padding-top: 10rem !important; 
+ 
+}
+
 .glava{
     background-image: url("img/header\ poz");
     background-repeat: no-repeat;
@@ -171,6 +262,511 @@ padding-top: 0;
     line-height: 50px;
 }
 
+.btn {
+    padding-bottom: 20px;
+    min-width: 180px;
+    display: inline-block;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    color: #3e256f;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #19e082; /* zelena linija */
+    z-index: 1;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #3e256f; /* plava linija */
+    z-index: 2;
+    transition: width 0.7s ease;
+}
+
+.btn:hover::before {
+    width: 100%;
+}
+
+
+.cardHeaders{
+margin-top: 3%;
+
+}
+
+.imgStyle{
+
+padding-bottom: 25px;
+max-width: 80px;
+height: auto;
+
+}
+
+.cardStyle .cardhover{
+padding: 40px;
+height: 100%;
+width: 100%;
+border-radius: 0;
+
+
+}
+
+.titles{
+    color: #3e256f;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+}
+.kartice .card:hover,
+.cardhover:hover{
+    animation-name: animacijaCard;
+    animation-duration: 1s ;
+    animation-fill-mode: forwards;
+    z-index: 10;
+    }
+
+    .kartice .card:not(:hover),
+    .cardhover:not(:hover) {
+        animation-name: animacijaCard2;
+        animation-duration: 1s ;
+        animation-fill-mode: forwards;
+        
+        }
+    @keyframes animacijaCard {
+        100%{
+            transform: scale(1.2);
+            border-radius: 20px;
+            border-color: rgb(0, 183, 0);
+        }
+    }
+    
+    
+    @keyframes animacijaCard2 {
+        0%{
+            transform: scale(1.2);
+            border-radius: 20px;
+            border-color: rgb(0, 183, 0);
+        }
+        100%{
+          
+            transform: scale(1);
+          
+        }
+    }
+
+
+    /* *sekcija broj 3* */
+
+    .products{
+
+        background-image: url("img/01-home-page-products-banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 100%;
+        min-height: 50%;
+        margin-top: 8%;
+        border-radius: 50px;
+        line-height: 30px;
+
+  
+    }
+
+
+
+.products p{
+color: white;
+font-family: "Raleway", sans-serif;
+} 
+
+
+
+
+    #ReadMore{
+color: white;
+
+    }
+
+
+    #ReadMore2{
+        color: rgb(255, 255, 255);
+        
+            }
+
+    .products .imgStyle{
+
+        max-width: 100%;
+        height: auto;
+padding-left: 15%;
+padding-top: 3%;
+    }
+
+    .products li i{
+color: #19e082;
+font-family: "Raleway",sans-serif;
+font-size: 18px;
+
+}
+
+.products li a{
+    color: #ffff;
+    font-family: "Raleway",sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    }
+
+.products li{
+padding-bottom: 15px;
+height:min-content;
+line-height:normal;
+}
+
+    .paddings{
+padding-left: 10%;
+padding-top: 7%;
+
+    }
+
+    .products li a:hover{
+
+font-weight: bold;
+color: #19e082;
+    }
+.products li:hover{
+    animation-name: animacijaLI;
+    animation-duration: 1s ;
+    animation-fill-mode: forwards;
+   
+    }
+    .products li:not(:hover) {
+        animation-name: animacijaLI2;
+        animation-duration: 1s ;
+        animation-fill-mode: forwards;
+        
+        }
+    @keyframes animacijaLI {
+        100%{
+           transform: translate(10px);
+ 
+        }
+    }
+    
+    
+    @keyframes animacijaLI2 {
+        0%{
+            transform: translate(10px);
+        }
+        100%{
+          
+            transform: translate(0px);
+          
+        }
+    }
+
+/* *Sekcija broj 4* */
+
+    .card2{
+
+        background-image: url("img/zelena\ pozadina.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        height: 600px;
+        border-radius: 30px;
+        padding-top: 17%;
+        padding-right: 5%;
+        padding-left: 10%;
+    }
+
+.card2 h3{
+color: #ffff;
+font-weight: bold;
+padding-bottom: 3%;
+    }
+
+.card2 p{
+
+        font-size: 16px;
+        line-height: 30px;
+        color: #FFFFFF;
+        font-weight: 400;
+font-family: "Raleway",sans-serif;
+    }
+
+.card2 p a{
+text-decoration: none;
+font-weight: bold;
+color: #FFFFFF;
+    }
+
+.card2 p a:hover{
+        text-decoration: underline 2px  ;
+        font-weight: bold;
+        color: #FFFFFF;
+ }
+
+ .quotation{
+
+    color: #19e082;
+    font-size: 56px;
+    line-height: 40px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Noto Serif", serif;
+ }
+
+ .quote{
+
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    color: #3e256f;
+
+ }
+
+ .author{
+
+    color: #19e082;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2.1;
+ }
+
+ .carousel-item{
+padding-left: 20%;
+padding-right: 20%;
+
+
+ }
+
+.carousel-control-next,
+.carousel-control-prev{
+
+    z-index: 0 !important;
+
+}
+
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+    height: 0px;
+    width: 0px;
+    
+ 
+ }
+ 
+ .carousel-control-next-icon:after
+ {
+   content: '>';
+   font-size: 55px;
+   color: #19e082;
+   
+ }
+ 
+ .carousel-control-prev-icon:after {
+   content: '<';
+   font-size: 55px;
+   color: #19e082;
+ }
+
+/* *Sekcija 5* */
+
+
+ #paragraf{
+
+padding-right: 30%;
+padding-bottom: 5%;
+ }
+
+
+ #paragraf p{
+
+font-family: "Raleway" , sans-serif;
+font-weight: 500;
+font-size: 16px;
+
+     }
+
+
+.slikaLista2 img{
+
+    margin-left: 25px;
+    }
+
+
+
+.kartice h4{
+
+    color: #3e256f;
+    font-size: 18px;
+font-weight: bold;
+font-family: "Raleway" , sans-serif;
+}
+.kartice .card{
+height: 100%;
+width: 80%;
+padding: 30px;
+border-radius: 0;
+
+}
+
+/* *Sekcija 6* */
+
+.plum-android{
+
+    background-image: url("img/android-box-bcg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:  100%;
+    padding-bottom: 3%;
+
+}
+
+.plum-android span{
+    color: #19e082;
+    font-weight: 700;
+
+
+}
+
+.plum-android p{
+    line-height: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 14px;
+
+}
+
+
+.plum-android .text{
+padding-top: 15%;
+
+}
+
+
+
+.container3{
+
+    width: 100%;
+padding-left: 25%;
+padding-right: 25%;
+}
+
+
+.container2{
+
+    width: 100%;
+padding-left: 10%;
+padding-right: 10%;
+}
+
+/* *Sekcija 7 statistika* */
+
+
+.plum-interactive{
+
+    background-image: url("img/index-stats-news-bcg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ height: 100%;
+
+}
+
+.card3{
+padding: 0;
+border: white;
+
+}
+
+.card3 p{
+color: #19e082;
+text-align: center;
+line-height: 14px;
+}
+
+.card3 h5{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0.75em;
+
+}
+
+.statistika .card{
+
+    border: 1px solid #9589ad;
+    border-radius: 0;
+    height: 300px;
+    width: 300px;
+padding-top: 25%;
+
+}
+
+/* *Vesti na sajtu* */
+
+.vesti{
+position: absolute;
+z-index: 20;
+color: white;
+font-size: 30px;
+font-family: "Raleway",sans-serif;
+margin: 0 auto;
+display: block;
+
+}
+
+#markica{
+
+padding-top: 15px;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.426);
+    bottom: 0%;
+
+}
+
+
+/* *scroll fix* */
+
+.scroll-container {
+
+    overflow:auto;
+    scroll-behavior: smooth;
+  }
+
+  /* width */
+.scroll-container::-webkit-scrollbar {
+background-color: #00000000;
+  }
+  
+  /* Track */
+  .scroll-container::-webkit-scrollbar-track {
+   text-decoration: none;
+  }
+  
+  /* Handle */
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: rgba(255, 0, 0, 0);
+
+  }
 
 
 

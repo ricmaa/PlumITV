@@ -2,14 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Plum Interactive TV</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous"></head>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@400&display=swap" rel="stylesheet">
     <script src="jquery.js"></script>
-    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navigacija.css">
+
+
+    <title>Home</title>
 </head>
 <body>
-    <div class="glava">
+
+<!-- Div koji poravnava footer sa ostalim contentom da ne bi footer bio fiksiran-->
+<div style="display: block;">
+
+
+<!-- Navigacija -->
+
+<div class="glava">
   <div class="container">
     <nav class="navbar navbar-expand-lg fill stroke" id="navigation">
       <div class="container-fluid" id="navbar_u">
@@ -37,10 +52,10 @@
               </a>
               <ul class="dropdown-menu">
 
-                <li><a class="dropdown-item" href="transcoder.html">PLUM ITV TRANSCODER</a></li>
-                <li><a class="dropdown-item" href="test.html">CLIENT APPS</a></li>
-                <li><a class="dropdown-item" href="test.html">PLUM ITV MEDIA ENGINE</a></li>
-                <li><a class="dropdown-item" href="test.html">PLUM ITV MIDDLEWARE</a></li>
+                <li><a class="dropdown-item" href="html/transcoder.html">PLUM ITV TRANSCODER</a></li>
+                <li><a class="dropdown-item" href="html/test.html">CLIENT APPS</a></li>
+                <li><a class="dropdown-item" href="html/test.html">PLUM ITV MEDIA ENGINE</a></li>
+                <li><a class="dropdown-item" href="html/test.html">PLUM ITV MIDDLEWARE</a></li>
             
 
                 
@@ -50,10 +65,10 @@
 
 
             <li class="nav-item ">
-              <a class="nav-link nonactive-link" href="test.html">SOLUTIONS</a>
+              <a class="nav-link nonactive-link" href="html/test.html">SOLUTIONS</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link nonactive-link" href="test.html">PRICES</a>
+              <a class="nav-link nonactive-link" href="html/test.html">PRICES</a>
             </li>
 
             <li class="nav-item ">
@@ -61,18 +76,20 @@
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link nonactive-link" href="test.html">CONTACT US</a>
+              <a class="nav-link nonactive-link" href="html/test.html">CONTACT US</a>
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link nonactive-link" href="test.html">PRIVACY POLICY</a>
+              <a class="nav-link nonactive-link" href="html/test.html">PRIVACY POLICY</a>
             </li>
 
           </ul>
         </div></div>
       </div>
     </nav>
-    </div>
+  </div>
+  
+  
     <div class="move">
           <div class=" mb-5 text-center">
                 <h1 class="hdr text-center">
@@ -87,15 +104,443 @@
           </div>
     </div>
 </div>
+  
+
+<!-- main page -->
+
+
+<!-- div koji odvaja content od centra -->
+    <div class="pageBars">
 
 
 
+<!-- Sekcija broj jedan-->
 
-  <div>
-  <a class="fiksiranoDugme" href="test.html">Meet us at IBC</a>
+      <div class="row justify-content-between row-cols-2 pt-11">
+      
+      <div class="col-lg-3 col-xl-2 col-12 pb-5 pt-2 ">
+        <span class="smallText">
+          Next generation solution for InteractiveTV
+        </span>
+      <h2 class="pb-3 hdr2">
+        WHAT IS <br>
+        PLUM ITV
+      </h2>
+      
+      <a href="FAQ.html" class="btn">Read FAQ <i class="bi bi-arrow-right"></i></a>
+      
+      </div>
+      
+      <div class="col-lg-9 col-12 font-weight-light ">
+      
+      <p class="descriptiveTxt">
+          <b> Plum iTV</b> is complete, scalable and flexible solution that provides the all modern features. Implementation is very simply since its core elements - <a href="html/test.html"><b>Transcoder</b></a>, <a href="html/test.html"><b>Media Engine</b></a> 
+          (Streamers, Load Balancer and NAS), <a href="html/test.html"><b>Middleware</b></a> (CMS and subscriber's applications) and Monitoring are already integrated. 
+          Plum iTV includes <a href="html/test.html"><b>applications</b></a> for Android/iOS mobile devices, Android STB, web application, application for Smart TV and possibility for ChromeCast extension for mobile devices.
+        <br>
+        <br>
+        Every part of our solution is carefully designed and made in accordance to experience and good practices from our previous projects and feedback from our clients and their end-users. <b>There is no such requirement and customization </b> that can’t be done by our in-house R&amp;D team.       
+      
+      </p>
+      
+      
+      </div>
+      
+      </div>
+      
+      <!-- Sekcija broj dva-->
+
+<div class="homepageCards">
+      <div class="cardHeaders"> 
+        <span class="smallText">
+          Everything you need in one place
+        </span>
+      <h2 class="pb-3 hdr2">
+        PLUM ITV KEY FEATURES
+      </h2>
+    </div>
+
+<div class="  col-12 cardStyle">
+
+    <div class="pt-5 card-group">
+
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card cardhover" >
+        <img src="img/zel krug.png" class="card-img-top imgStyle">
+        <div class="card-body">
+          <span class="card-title titles">BASIC FEATURES</span>
+          <p class="card-text">Live, TimeShift, CatchUp, EPG - Manipulation with content</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card cardhover" >
+        <img src="img/belo zeleno.png" class="card-img-top imgStyle">
+        <div class="card-body">
+          <span class="card-title titles">BUFFET</span>
+          <p class="card-text">Efficient browsing through content. Improving of user experience.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card cardhover" >
+        <img src="img/zeleni uredjaji.png" class="card-img-top imgStyle">
+        <div class="card-body">
+          <span class="card-title titles">CROSS PLATFORM CLIENT APP</span>
+          <p class="card-text">Multiscreen – Anywhere, anytime and any device.</p>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card cardhover" >
+        <img src="img/zelenipapir.png" class="card-img-top imgStyle">
+        <div class="card-body">
+          <span class="card-title titles">BILLING SYSTEM</span>
+          <p class="card-text ">Connect Plum with your billing system</p>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card cardhover" >
+        <img src="img/zeleni katanac.png" class="card-img-top imgStyle">
+        <div class="card-body">
+          <span class="card-title titles">PROTECTION AND SECURITY</span>
+          <p class="card-text">System takes care of itself.</p>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card cardhover" >
+        <img src="img/zelena traka.png" class="card-img-top imgStyle">
+        <div class="card-body">
+          <span class="card-title titles"> VOD</span>
+          <p class="card-text">Classic library of movies and series</p>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card cardhover">
+        <img src="img/zeleni papir.png" class="card-img-top imgStyle">
+        <div class="card-body">
+          <span class="card-title titles">ANALASYS AND MONITORING</span>
+          <p class="card-text">Insight in every part of the system.</p>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card cardhover" >
+        <img src="img/zeleni ljudi.png" class="card-img-top imgStyle">
+        <div class="card-body">
+          <span class="card-title titles">MULTIUSER / PARENTAL CONTROL</span>
+          <p class="card-text">One subscriber - more subprofiles.</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
   </div>
 
-<!-- Footer-->
+  </div>
+
+   <!-- Sekcija broj tri-->
+
+<div class="row justify-content-center products">
+<div class="col-lg-6 col-md-12 p-5">
+  <div class="paddings">
+  <h2 class="hdr3">PLUM PRODUCTS</h2>
+  <p><b>Plum iTV Turn Key Technical Solution</b> is based on <br> following products:</p>
+  <ul class="lista list-unstyled ">
+      <li><i class="bi bi-caret-right"></i>&nbsp&nbsp&nbsp<a href="/products/plum-itv-transcoder">Transcoder,</a></li>
+      <li><i class="bi bi-caret-right"></i>&nbsp&nbsp&nbsp<a href="html/test.html">Media Engine (Streamers, Load-balancer),</a></li>
+      <li><i class="bi bi-caret-right"></i>&nbsp&nbsp&nbsp<a href="html/test.html">Middleware with Backend and Frontend,</a></li>
+      <li><i class="bi bi-caret-right"></i>&nbsp&nbsp&nbsp<a href="html/test.html">Plum iTV includes applications for Android and iOS Mobile devices, Android SmartTV/STB devices, Web applications and more...</a></li>
+  </ul>
+  <a href="html/test.html" class="btn" id="ReadMore">Read More <i class="bi bi-arrow-right"></i></a>
+</div>
+</div>  
+
+
+
+
+
+
+
+<div class="col-lg-6 col-md-12 " >
+
+<img src="img/00-home-page-products-banner-exm2.png" class="imgStyle">
+
+</div>
+
+
+</div> 
+
+
+
+   <!-- Sekcija broj cetiri carousel i kartica -->
+
+<div class="row pt-4 align-items-center " style="margin-top: 5%;">
+ 
+
+
+
+
+<div class="col-md-6 col-12 ">
+
+
+
+  <div class="card mb-3 card2" style="width: 100%;">
+    <div class="card-body scroll-container">
+      <h3 class="card-title ">PLUM iTV SOLUTIONS</h3>
+      <p class="card-text">Plum iTV is modular and flexible system suited for providers with systems of all sizes – From Telco, Cable, <a href="#">Internet providers</a> with large networks to <a href="#">Hospitalities</a>. Modularity allows the system to grow together with the provider. Transcoder, Streamer, Storage, Middleware, end-user’s applications – all elements of the system are already integrated, when the need arises additional elements can be added easily and quickly.</p>
+      
+      <div style="margin-top: 10%;">
+      <a href="html/test.html" class="btn" id="ReadMore2">Read More &nbsp;&nbsp;<i class="bi bi-arrow-right"></i></a>
+    </div>
+    </div>
+  </div>
+
+  </div>
+
+
+
+
+
+<div class="col-md-6 col-12 ">
+
+  <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <span class="quotation">‘‘ ’’</span><br>
+        <span class="quote">After the first meeting I knew we had made the right choice.</span><br>
+        <span class="author">SAID DIRECTOR OF SALES IN IINET</span>
+      </div>
+      <div class="carousel-item">
+        <span class="quotation">‘‘ ’’</span><br>
+        <span class="quote">By implementing PLUM iTV platform, our annual revenue, the number of new subscribers and the demand for our services rapidly started to increase</span><br>
+        <span class="author">Elvedin Zircanin’s words, CEO of  NextFiber.</span>
+      </div>
+      <div class="carousel-item">
+        <span class="quotation">‘‘ ’’</span><br>
+        <span class="quote">We are more than satisfied with lots of incredibly positive subscribers feedback and reactions for new iTV platform</span><br>
+        <span class="author">SAID DIRECTOR OF CSCCIS</span>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon next" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span class="carousel-control-next-icon next text-black" aria-hidden="true"></span>
+      <span class="visually-hidden text-black">Next</span>
+    </button>
+  </div>
+
+</div>
+
+
+
+</div>
+
+
+
+   <!-- Sekcija broj pet-->
+
+<div class="row justify-content-between row-cols-2 pt-11">
+      
+  <div class="col-md-6 col-12">
+    <div class="slikaLista">
+
+<img src="img/list.png" alt="">
+    </div>
+
+    
+    <span class="smallText">
+      We are partners that you can always count on
+    </span>
+  <h2 class="pb-3 hdr2">
+    PLUM iTV <br>
+    BUSINESS MODELS
+  </h2>
+  <div id="paragraf">
+  <p style="font-weight: 300;" >In order to accomplish demands of every client we made four Plum iTV business models. Models are flexible, according your needs every model can be modified.</p>
+</div>
+  <a href="html/test.html" class="btn">All Prices <i class="bi bi-arrow-right"></i></a>
+  
+  </div>
+
+  <div class="col-md-6 col-12">
+  
+ <div class="kartice">
+  <div class="card mt-2">
+    <div class="card-body">
+        <h4 class="pb-2">PARTNERSHIP MODEL</h4>
+        <p class="mb-0 pt-1">Partners in providing iTV service</p>
+    </div>
+</div>
+<div class="card ">
+  <div class="card-body">
+      <h4 class="pb-2">CLOUD SYSTEM MODEL</h4>
+      <p class="mb-0 pt-1">Partners in a mission of conquering the market</p>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+      <h4 class="pb-2">RESELLING MODEL</h4>
+      <p class="mb-0 pt-1">Partners in a mission of conquering the market</p>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+      <h4 class="pb-2">PERPETUAL LICENSE MODEL</h4>
+      <p class="mb-0 pt-1">for using Plum iTV solution in providing iTV service</p>
+  </div>
+</div>
+    </div>
+  </div>
+  </div>
+  
+
+
+
+  
+  </div>
+  
+ <!-- Sekcija broj sest android box-->
+
+<div class="plum-android">
+<div class="container3">
+  <div class="row pt-8 pb-9">
+    <div class="col-md-6 col-12 text-center slikaDIV">
+        <img class="img-fluid" src="img/android-box.png">
+    </div>
+    <div class="col-md-6 col-12  text">
+        <h5 class="pb-4 hdr4">PLUM iTV <br>ANDROID BOX</h5>
+        <p class="pt-1">
+            <span>helps you to discover a whole new TV experience.</span>
+            <br>
+            Enjoy in various content in 4k resolution – PLUM iTV Smart Box with Android OS makes Smart every TV and offers you an abundance of different content for entertainment and education via supported applications, as well as through connection with your smartphone.                    </p>
+        <div class="row pt-6">
+            <div class="col-lg-12">
+              <a href="html/test.html" class="btn" id="ReadMore">Read More&nbsp;<i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+
+
+   <!-- Sekcija broj sedam info-->
+
+<div class="plum-interactive pt-5 pb-5" >
+  <div class="container2">
+  <div class="row pb-3 align-items-center container-a">
+    <div class="col">
+      <div class="slikaLista2">
+  <img src="img/list.png" alt="">
+      </div>
+        <h2 class="hdr5">PLUM <br>INTERACTIVE TV</h2>
+    </div>
+    <div class="col " style="padding-top: 10%;">
+        <a class="btn float-end " id="ReadMore" >GET A QUOTE <i class="bi bi-arrow-right"></i></a>
+    </div>
+</div>
+
+<div class="row col-12 statistika">
+
+<div class="col-md-3 col-sm-6 bg-transparent card3">
+  <div class="card bg-transparent " style="width: 100%;">
+    <div class="card-body">
+      <h5 class="card-title text-center">50000+</h5>
+      <p class="card-text">END SUBSCRIBERS</p>
+      
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-6 bg-transparent card3">
+  <div class="card bg-transparent " style="width: 100%;">
+    <div class="card-body">
+      <h5 class="card-title  text-center">15+</h5>
+      <p class="card-text">CLIENTS</p>
+      
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-6 bg-transparent card3">
+  <div class="card bg-transparent " style="width: 100%;">
+    <div class="card-body">
+      <h5 class="card-title  text-center">1000+</h5>
+      <p class="card-text">TRANSCODED CHANNELS</p>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-3 col-sm-6 bg-transparent card3">
+  <div class="card bg-transparent " style="width: 100%;">
+    <div class="card-body">
+      <h5 class="card-title  text-center">200TB+</h5>
+      <p class="card-text">DAILY RECORDED CONTENT</p>
+      
+    </div>
+  </div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+<div id="markica">
+<marquee behavior="scroll" direction="left" class="vesti" scrollamount="25" >WELCOME TO THE PLUM iTV WE HOPE YOU ENJOY YOUR STAY</marquee>
+</div>
+
+  </div>
+
+  <div>
+    <a class="fiksiranoDugme" href="html/test.html">Meet us at IBC</a>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   <!-- Footer-->
 
 <footer class="footer">
   <div class="container">
@@ -119,23 +564,23 @@
       <div class="col-md-3">
         <a href="main.html">HOME</a>
         <br>
-        <a href="test.html">PRODUCTS</a><br/>
+        <a href="html/test.html">PRODUCTS</a><br/>
         <ul>
                                       
           <li>
-          <a href="transcoder.html">PLUM ITV TRANSCODER</a>
+          <a href="html/transcoder.html">PLUM ITV TRANSCODER</a>
           </li>
 
           <li>
-          <a href="test.html">CLIENT APPS</a>
+          <a href="html/test.html">CLIENT APPS</a>
           </li>
 
           <li>
-          <a href="test.html">PLUM ITV MEDIA ENGINE</a>
+          <a href="html/test.html">PLUM ITV MEDIA ENGINE</a>
           </li>
 
           <li>
-          <a href="test.html">PLUM ITV  MIDDLEWARE</a>
+          <a href="html/test.html">PLUM ITV  MIDDLEWARE</a>
           </li>
 
         </ul>
@@ -144,13 +589,13 @@
 
 
       <div class="col-md-3">
-        <a href="test.html">SOLUTIONS</a><br>
-        <a href="test.html">PRICES</a><br>
+        <a href="html/test.html">SOLUTIONS</a><br>
+        <a href="html/test.html">PRICES</a><br>
       </div>
           
       <div class="col-md-3">
-        <a href="test.html">FAQ</a><br>
-        <a href="test.html">CONTACT US</a>
+        <a href="html/test.html">FAQ</a><br>
+        <a href="html/test.html">CONTACT US</a>
       </div>
 
 
@@ -165,8 +610,10 @@
     </div>
 
   </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </footer>
+
+
+
 
 </body>
 </html>
