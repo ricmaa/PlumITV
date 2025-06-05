@@ -280,3 +280,255 @@ padding-top: 10px;
 padding-bottom: 15px;
 }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pocetna(ljubicasta) sekcija */
+.pocetak{
+    background-image: url("img/plum-transcoder-bcg01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 650px;
+    min-width: 100%;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.raleway-font{
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-purple{
+    color:#3E256F;
+}
+
+
+
+
+
+
+
+.btn {
+    padding-bottom: 20px;
+    min-width: 180px;
+    display: inline-block;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    color: #3e256f;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #19e082; /* zelena linija */
+    z-index: 1;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #3e256f; /* plava linija */
+    z-index: 2;
+    transition: width 0.7s ease;
+}
+
+.btn:hover::before {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* druga(bela) sekcija */
+
+#white-container{
+    background-image: url("../img/03-white-bcg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    min-height: 750px;
+    min-width: 100%;
+}
+
+.transparent-background{
+    background-color: transparent;
+}
+
+.card-title{
+    font-size: 72px;
+    font-weight: 800;
+    color: #19e082;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card-subtitle{
+    color: #3E256F; 
+    font-weight: bold; 
+    font-size: 17px;
+}
+
+.minimalna-visina /* kartica */{
+    min-height: 210px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+#purple-container{
+    background-image: url("../img/plum-products-bcg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    min-height: 300px;
+    min-width: 100%;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.min-height{
+    min-height: 200px;
+}
+
+.slika2{
+    display: block;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.slika1{
+    display: block;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.center-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.naslov{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#green-container{
+    background-image: url("../img/green-bck.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 100%;
+    min-height: 400px;
+    min-width: 100%;
+}
+
+.dugme{
+    
+        font-size: 18px;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 40px;
+        background-color: #19e082;
+        border: none;
+        border-radius: 50px;
+        padding: 0 40px;
+        color: #2f1956;
+        transition-duration: 300ms;
+}
+
+.dugme:hover{
+    background-color: #7eebb8 !important;
+    
+}
+
+
+div .txt-decoration button a{
+text-decoration: none;
+color: white;
+}
