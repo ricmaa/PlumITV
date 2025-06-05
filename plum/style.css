@@ -720,7 +720,7 @@ padding-top: 25%;
 
 }
 
-/* *Vesti na sajtu* */
+
 
 .vesti{
 position: absolute;
@@ -745,7 +745,7 @@ padding-top: 15px;
 }
 
 
-/* *scroll fix* */
+
 
 .scroll-container {
 
@@ -753,17 +753,17 @@ padding-top: 15px;
     scroll-behavior: smooth;
   }
 
-  /* width */
+ 
 .scroll-container::-webkit-scrollbar {
 background-color: #00000000;
   }
   
-  /* Track */
+
   .scroll-container::-webkit-scrollbar-track {
    text-decoration: none;
   }
   
-  /* Handle */
+ 
   .scroll-container::-webkit-scrollbar-thumb {
     background: rgba(255, 0, 0, 0);
 
@@ -893,19 +893,6 @@ padding-bottom: 15px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* pocetna(ljubicasta) sekcija */
 .pocetak{
     background-image: url("img/plum-transcoder-bcg01.jpg");
     background-repeat: no-repeat;
@@ -955,7 +942,7 @@ h2{
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #19e082; /* zelena linija */
+    background-color: #19e082;
     z-index: 1;
 }
 
@@ -966,7 +953,7 @@ h2{
     left: 0;
     width: 0%;
     height: 2px;
-    background-color: #3e256f; /* plava linija */
+    background-color: #3e256f;
     z-index: 2;
     transition: width 0.7s ease;
 }
@@ -980,12 +967,53 @@ h2{
 
 
 
+.btnLj {
+    padding-bottom: 20px;
+    min-width: 180px;
+    display: inline-block;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.btnLj::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #19e082;
+    z-index: 1;
+}
+
+.btnLj::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #ffffff;
+    z-index: 2;
+    transition: width 0.7s ease;
+}
+
+.btnLj:hover::before {
+    width: 100%;
+}
 
 
 
 
 
-/* druga(bela) sekcija */
+
 
 #white-container{
     background-image: url("../img/03-white-bcg.jpg");
