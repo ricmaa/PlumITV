@@ -171,3 +171,112 @@ padding-top: 0;
     text-align: center;
     line-height: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  width: 100%;
+  background-color: #191629;
+  background-image: url("img/footer-bcg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  font-size: 12px;
+  border-top: 4px solid;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 6%;
+}
+
+footer  span{
+color:#726d8c;
+}
+
+footer h2{
+font-size:48px;
+font-weight: 800;
+color: white;
+font-family: "Raleway", sans-serif;
+}
+
+footer ul li a{
+  background-image: url("img/arrow.png");
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+footer a {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration: none;
+}
+  
+footer a:hover{
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.opis{
+  color: #19e082;
+  font-size: 22px;
+  font-weight:100;
+}
+.opis:hover{
+  text-decoration: underline;
+  font-weight:100;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer li a {
+  color: #8f8f8f;
+  font-size: 12px;
+  line-height: 30px;
+  display: inline;
+}
+
+footer  hr {
+  color: #fefcff;
+  margin: 0;
+}
+
+.copyright{
+font-size: 18px;
+font-family: "Raleway" , sans-serif;
+padding-top: 10px;
+padding-bottom: 15px;
+}
+  
